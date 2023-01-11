@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.footerlinks {
+    color: #f4a460;
+    text-decoration: none;
+}
+
+    .footerlinks:hover {
+        background-color: #f4a460;
+    }
+
+.footer1{
+    background-color: #ffffff;
+}
