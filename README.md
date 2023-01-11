@@ -1,7 +1,7 @@
 # asp.netProje
 
 
-19290203 İrem Akar BLM4531-A Ağ Tabanlı Teknolojiler Ve Uygulamaları
+
 
 Anasayfa
 
