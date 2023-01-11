@@ -162,12 +162,15 @@ Admin.aspx dosyasında update, delete, add işlemlerinin nasıl yapıldığı g�
 
 homepage.aspx
 
+![Ekran Görüntüsü (482)](https://user-images.githubusercontent.com/69587001/211855522-e4059523-7371-41ba-a58f-234b64279968.png)
+
 
 
 
 Homepage.aspx dosyasında ise anasayfada yer alan carousel ve resimler tanımlandı. Resimler card yapısı şeklinde yapıldı. 
 
 kullanıcıBilgilerim.aspx
+![Ekran Görüntüsü (484)](https://user-images.githubusercontent.com/69587001/211855589-543ec3d7-f680-4892-9cdf-923e9fc777b6.png)
 
 
 
@@ -176,6 +179,7 @@ Burada kullanıcıların bilgilerinin görüntülenmesi yapılmaktadır.
 
 myProducts.aspx
 
+![Ekran Görüntüsü (485)](https://user-images.githubusercontent.com/69587001/211855620-bf77efb9-0fe1-4e12-8fd8-1aef57322afc.png)
 
 
 
@@ -185,6 +189,7 @@ myProducts.aspx
 
 myProducts.aspx.cs
 
+![Ekran Görüntüsü (487)](https://user-images.githubusercontent.com/69587001/211855637-bdabf698-d305-4075-ac40-4640ce460e4f.png)
 
 
 MyProducts.aspx dosyasında ise kullanıcının veritabanına kayıt ettiği ürünlerin gösterilmesi sağlanmaktadır. Bu Repeater içine tablo koyarak yapıldı. Yani veriler tabloda gösterilmiş oldu. HeaderTemplate kısmında tablonun colonlarının isimleri, ItemTemplate kısmında ise bu kolonların içleri Eval komutuyla doldurulmaktadır. Evalin içine veritabanında verdiğimiz kolon isimlerini yazıyoruz.
@@ -250,7 +255,8 @@ SignUp.aspx dosyasında form-group classı ile biçimlendirilmiş olan text bilg
 Site1.Master
 
 
-![Ekran Görüntüsü (494)](https://user-images.githubusercontent.com/69587001/211854986-1aff03ab-a08d-4207-9ff0-729f96145b43.png)
+![Ekran Görüntüsü (494)](https://user-images.githubusercontent.com/69587001/211856011-6c6d35ce-4e24-4a7a-bce1-cb7dbe5bc97f.png)
+
 
 
 
@@ -266,7 +272,8 @@ Site1.Master
 
 
 Site1.Master.cs
-![Ekran Görüntüsü (498)](https://user-images.githubusercontent.com/69587001/211855021-b80d5a0b-135b-4a7b-84f4-b73ea8b0a64e.png)
+![site](https://user-images.githubusercontent.com/69587001/211856452-7b3c7af5-80c0-4f5c-bde6-adfb22a1789e.png)
+
 
 
 Site1.Master dosyasında web sitesinin her sayfasında değişmeyecek kısımları tanımlandı. Değişen kısım ilgili sayfaya göre contentplaceholder kısmı oldu. Burada navbar ve arama kutucukları tanımlandı. Site1.Master.cs dosyasında ise giriş yap, üye ol gibi navbar kısmında yer alan kısımlara tıklandığında Response.Redirect ile o sayfaya yönlendirme sağlandı. 
@@ -293,12 +300,14 @@ Site1.Master dosyasında web sitesinin her sayfasında değişmeyecek kısımlar
 
 userLogin.aspx
 
+![Ekran Görüntüsü (499)](https://user-images.githubusercontent.com/69587001/211856664-05120e43-7627-4288-b1a7-369c65b5a43b.png)
 
 
 
 
 userLogin.aspx.cs
 
+![Ekran Görüntüsü (500)](https://user-images.githubusercontent.com/69587001/211856689-7c66c94e-751a-4e2a-b0cb-17b9fe6a475f.png)
 
 
 UserLogin.aspx sayfasında kullanıcı girişinin tasarımı yapıldı. UserLogin.aspx.cs dosyasında ise kullanıcının veritabanında kayıtlı olup olmadığı where komutu ile sorgulandıktan sonra eğer kullanıcı mevcut ise kendi sayfasına yönlendirmesi sağlanmıştır.
